@@ -1,0 +1,5 @@
+let a=["total number of characters","Array of string"];
+let count=0;
+for(i=0;i<a.length;i++){
+  count=count+a[i].length
+}console.log(count);
